@@ -41,21 +41,42 @@
 // console.log(fruits.indexOf("pears"))
 
 //object
-const person = {
-    name: 'sagar',
-    surname: "sangwan",
-    age: 30,
-    address: {
-        village: "chhapar",
-        house_no: "235",
+// const person = {
+//     name: 'sagar',
+//     surname: "sangwan",
+//     age: 30,
+//     address: {
+//         village: "chhapar",
+//         house_no: "235",
+//     },
+//     hobbies: ['coding', 'sports']
+// }
+
+// console.log(`${person.name} ${person.surname} is ${person.age} years old`)
+
+// console.log(person)
+// person.email = "iamsagarsangwan@gmail.com"
+// console.log(person)
+
+friends = [
+    {
+        id: 1,
+        name: "sagar"
     },
-    hobbies: ['coding', 'sports']
-}
+    {
+        id: 2,
+        name: "chinki"
+    },
+    {
+        id: 3,
+        name: "kaplu"
+    }
+]
+console.log(friends)
 
-console.log(`${person.name} ${person.surname} is ${person.age} years old`)
 
-console.log(person)
-person.email = "iamsagarsangwan@gmail.com"
-console.log(person)
+const friendsJSON = JSON.stringify(friends)
+console.log(friendsJSON)
 
+//forloop
 
