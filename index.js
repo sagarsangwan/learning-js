@@ -40,7 +40,7 @@
 // console.log(fruits);
 // console.log(fruits.indexOf("pears"))
 
-//dict 
+//object
 const person = {
     name: 'sagar',
     surname: "sangwan",
